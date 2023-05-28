@@ -1,0 +1,81 @@
+.Icons {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+    transition: 0.5s all;
+}
+.Photo {
+    height: 325px;
+    width: 250px;
+    transition: 0.5s all;
+}
+.picture {
+    float: left;
+    width: 33.3333333%;
+    transition: 0.5s all;
+}
+.picture span {
+    font-weight: 500;
+}
+.picture a {
+    color: black;
+    text-decoration: none;
+}
+.picture a:hover {
+    color: black;
+    text-shadow: 0.5px 0.5px;
+}
+.inform {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 80px 0px;
+}
+.inform p {
+    line-height: 0.4;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.5s all;
+}
+.inform img {
+    width: 40px;
+    height: 40px;
+    transition: 0.5s all;
+}
+@media (max-width: 1050px) {
+    .inform img {
+        width: 30px;
+        height: 30px;
+    }
+    .inform p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .picture {
+        width: 100%;
+    }
+    .inform {
+        width: 50%;
+    }
+    .picture {
+        margin-top: 50px;
+    }
+    .last_2 {
+        margin-top: 30px;
+    }
+    h1 {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 700px) {
+    .Icons {
+        width: 35px;
+        height: 35px;
+    }
+    .Photo {
+        height: 300px;
+        width: 225px;
+    }
+}

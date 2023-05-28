@@ -1,0 +1,163 @@
+h1 {
+    letter-spacing: 0.1em;
+}
+main p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1;
+    transition: 0.5s all;
+}
+.part1 {
+    padding-top: 20px;
+}
+.text1 {
+    padding: 0px 90px 50px 0px;
+    float: left;
+    width: 55%;
+    transition: 0.5s all;
+}
+.photo1 {
+    float: left;
+    width: 45%;
+}
+.photo1 img {
+    height: 410px;
+    width: 466px;
+    transition: 0.5s all;
+}
+.part2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.text2 {
+    flex-grow: 2;
+}
+.photo2 {
+    flex-grow: 3;
+}
+.text2 ul {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 130px;
+    transition: 0.5s all;
+}
+.text2 span {
+    font-weight: 500;
+}
+.text2 li span{
+    font-style: italic;
+}
+.photo2 img {
+    height: 340px;
+    width: 582px;
+    transition: 0.5s all;
+}
+.text3 {
+    width: 100%;
+    padding: 90px;
+    padding-bottom: 50px;
+    transition: 0.5s all;
+}
+@media (max-width: 1250px) {
+    .text1, .text3 {
+        padding-right: 50px;
+    }
+    .text3 {
+        padding-left: 50px;
+    }
+    .text2 ul {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1100px) {
+    .text1, .text3 {
+        padding-right: 30px;
+    }
+    .text3 {
+        padding-left: 30px;
+    }
+    .text2 ul {
+        margin-left: 40px;
+    }
+    .photo2 img {
+        height: 261px;
+        width: 428px;
+    }
+    .photo1 img {
+        height: 400px;
+        width: 428px;
+    }
+}
+@media (max-width: 1000px) {
+    .photo1 img {
+        height: 300px;
+        width: 328px;
+    }
+    main p {
+        font-size: 17px;
+    }
+    .text2 ul, .text2 span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 850px) {
+    .part2 {
+        flex-direction: column-reverse;
+    }
+    .photo1, .text1, .text2, .photo2 {
+        width: 100%;
+    }
+    .photo1 img {
+        height: 400px;
+        width: 428px;
+    }
+    .photo2 img {
+        height: 340px;
+        width: 582px;
+    }
+    .text1 {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .text2 ul {
+        margin-left: 250px;
+    }
+    .text2 {
+        padding-top: 30px;
+    }
+    .text3 {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 700px) {
+    .text2 ul {
+        margin-left: 0px;
+        padding-left: 200px;
+    }
+    .photo1 img {
+        height: 300px;
+        width: 328px;
+    }
+    .photo2 img {
+        height: 261px;
+        width: 428px;
+    }
+}
+@media (max-width: 500px) {
+    .photo1 img {
+        width: 100%;
+        height: auto;
+    }
+    .photo2 img {
+        width: 100%;
+        height: auto;
+    }
+    .text2 ul {
+        padding-left: 100px;
+    }
+    main p, .text2 ul, .text2 span {
+        font-size: 15px;
+    }
+}

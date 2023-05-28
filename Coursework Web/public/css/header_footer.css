@@ -1,0 +1,234 @@
+.Logotype {
+    height: 61px;
+    width: 85px;
+    transition: 0.5s all;
+}
+.Action {
+    height: 60px;
+    width: 190px;
+}
+span {
+    font-size: 20px;
+}
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 120px;
+    width: 100%;
+    background: #BAA7B0;
+}
+.menu_icon {
+    width: 0px;
+    height: 0px;
+    transition: 0.5s all;
+}
+header button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    transition: 0.5s all;
+    pointer-events: none;
+}
+.text_menu {
+    display: none;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 195px;
+    height: 300px;
+    background-color: #5E565A;
+    transition: 0.5s all;
+    text-align: center;
+}
+.text_menu button {
+    padding-left: 30px;
+    padding-top: 45px;
+}
+.text_menu a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.text_menu a:hover {
+    color: #FFC43D;
+    text-shadow: 1px 1px;
+}
+.p_in_menu {
+    padding-top: 40px;
+    line-height: 2;
+}
+.head_menu_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .Logotype {
+    margin-bottom: 19px;
+}
+.span_in_menu span {
+    padding-right: 30px;
+    letter-spacing: 0.1em;
+    transition: 0.5s all;
+}
+.span_in_menu span a {
+    color: black;
+    text-decoration: none;
+}
+.span_in_menu span a:hover {
+    color: #FFC43D;
+    text-shadow: 1px 1px;
+}
+.Phone img {
+    height: 24px;
+    width: 24px;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+}
+main {
+    height: fit-content;
+    width:100%;
+    background: #CBF3F0;
+    text-align: center;
+}
+h1 {
+    padding: 50px;
+    padding-top: 210px;
+    transition: 0.5s all;
+}
+main .Action {
+    margin-bottom: 90px;
+}
+footer {
+    height: fit-content;
+    width:100%;
+    background: #F5F5F5;
+}
+.flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    font-size: 20px;
+}
+footer .Logotype {
+    margin-top: 50px;
+    transition: 0.5s all;
+}
+.info, .contacts, .network {
+    display: flex;
+}
+.contacts img {
+    width: 24px;
+    height: 24px;
+    flex-direction: column;
+}
+.contacts p {
+    line-height: 0.7;
+    transition: 0.5s all;
+}
+.footer_info {
+    padding: 11px;
+    padding-left: 7px;
+}
+.network {
+    padding-left: 80px;
+}
+.network p {
+    width: 170px;
+    transition: 0.5s all;
+}
+.network img {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    transition: 0.5s all;
+}
+.Inc {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+@media (max-width: 1100px) {
+    .network {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1050px) {
+    .span_in_menu span {
+        padding-right: 0px;
+    }
+}
+@media (max-width: 1000px) {
+    .flex {
+        font-size: 16px;
+    }
+    .network p {
+        width: 130px;
+    }
+    .network img {
+        margin: 3px;
+    }
+}
+@media (max-width: 850px) {
+    .span_in_menu span {
+        font-size: 0px;
+    }
+    .menu_icon {
+        width: 30px;
+        height: 30px;
+    }
+    header button {
+        pointer-events: auto;
+    }
+    header .Logotype {
+        margin-left: 20px;
+    }
+    footer .Logotype {
+        width: 0px;
+        height: 0px;
+    }
+    .info {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .Phone span {
+        font-size: 0px;
+    }
+    .Phone img {
+        height: 30px;
+        width: 30px;
+    }
+    .info {
+        flex-direction: column-reverse;
+    }
+    .info p {
+        margin: 5px;
+        line-height: 1.1;
+        font-size: 18px;
+        width: 100%;
+    }
+    .network, .contacts {
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .info p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px) {
+    header .Logotype {
+        height: 0px;
+        width: 0px;
+    }
+    .network img {
+        width: 35px;
+        height: 35px;
+    }
+}

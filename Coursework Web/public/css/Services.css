@@ -1,0 +1,70 @@
+.photo {
+    float: left;
+    width: 33.333333%;
+    padding: 20px;
+    transition: 0.5s all;
+}
+.long {
+    width: 66.666666%;
+    transition: 0.5s all;
+}
+.photo img {
+    width: 350px;
+    height: 350px;
+    transition: 0.5s all;
+}
+.long img {
+    width: 670px;
+    transition: 0.5s all;
+}
+.photo p {
+    line-height: 0.4;
+}
+.text_for_photo {
+    font-size: 19px;
+    padding: 10px;
+    transition: 0.5s all;
+}
+.strong {
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+main .Action {
+    margin-top: 30px;
+}
+@media (max-width: 1168px) {
+    .photo {
+        width: 50%;
+    }
+    .long {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .photo img {
+        width: 250px;
+        height: 250px;
+    }
+    .long img {
+        width: 570px;
+    }
+    .text_for_photo {
+        font-size: 16px;
+    }
+    .strong {
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .photo {
+        width: 100%;
+    }
+    .long img {
+        width: 300px;
+        height: 170px;
+    }
+    h1 {
+        padding-bottom: 40px;
+    }
+}
